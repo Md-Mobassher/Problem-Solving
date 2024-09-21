@@ -1,0 +1,22 @@
+{
+  "name": "problem_solving",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn TypeScript/Day-01.ts",
+    "build": "tsc",
+    "copy-js": "copyfiles -u 1 js/*.js dist/JavaScript/",
+    "start": "node dist/TypeScript/Day-01.js",
+    "start-js": "node JavaScript/solution1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  }
+}
