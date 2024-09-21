@@ -53,12 +53,11 @@ project-root/
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Md-Mobassher/Problem-Solving.git
    cd Problem-Solving
    ```
-
-````
 
 2. Install dependencies:
    ```bash
@@ -108,5 +107,3 @@ This project is licensed under the MIT License.
 ### More Projects and Information
 
 👉 Explore additional projects and find out more about my work on my portfolio website: **[Md Mobassher Hossain](https://mobassher.vercel.app)**
-
-````
