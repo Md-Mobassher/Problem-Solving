@@ -68,7 +68,7 @@ const squareDoubleAddFive = (a: number) =>
   addFiveToANumber(doubleANumber(squareANumber(a)));
 
 const result = squareDoubleAddFive(5);
-console.log(result);
+// console.log(result);
 
 // Task-04: Sorting Objects
 // Create an array of objects representing cars with properties like make, model, and year. Write a function to sort the array of cars by the year of manufacture in ascending order. Print the sorted array.
@@ -91,7 +91,7 @@ const cars: TCar[] = [
 const sortCarByYear = (cars: TCar[]) => cars.sort((a, b) => a.year - b.year);
 
 const sortedCars = sortCarByYear(cars);
-console.log(sortedCars);
+// console.log(sortedCars);
 
 // Task-05: Find and Modify
 // Write a function that searches an array of objects for a specific person by name. If found, modify their age property. Print the updated array.
@@ -102,4 +102,4 @@ const updateAge = (persons: TPerson[], name: string, newAge: number) =>
   );
 
 const updatedAge = updateAge(persons, "Ashrafi", 23);
-console.log(updatedAge);
+// console.log(updatedAge);
