@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn TypeScript/Day-03.ts",
+    "dev": "ts-node-dev --respawn TypeScript/Day-04.ts",
     "build": "tsc",
     "copy-js": "copyfiles -u 1 js/*.js dist/JavaScript/",
     "start": "node dist/TypeScript/Day-01.js",
